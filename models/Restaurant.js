@@ -11,4 +11,4 @@ const RestaurantSchema = new Schema({
   createdAt: { type: Date, default: Date.now },
 });
 
-module.exports = mongoose.model(Restaurant, RestaurantSchema);
+module.exports = mongoose.model('Restaurant', RestaurantSchema);

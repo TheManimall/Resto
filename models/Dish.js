@@ -11,4 +11,4 @@ const DishSchema = new Schema({
   rating: [Number],
 });
 
-module.exports = mongoose.model(Dish, DishSchema);
+module.exports = mongoose.model('Dish', DishSchema);
